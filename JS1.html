@@ -19,10 +19,10 @@
          */
         var btn=document.getElementById("button");
         btn.onclick=function(){
+            //获取输入结果
             var aqi=document.getElementById("aqi-input").value;
             var aqi2=document.getElementById("aqi-display");
-            console.log(aqi);
-            console.log(aqi2);
+            //对获取结果进行判断
             if (aqi!=""){
                 aqi2.innerHTML=aqi;
             }else{
